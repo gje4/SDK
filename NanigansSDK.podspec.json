@@ -1,0 +1,19 @@
+{
+  "name": "NanSDK",
+  "version": "2.1",
+  "license": "MIT",
+  "summary": "Nanigans SDK is used to track user level data that can be used with the Marketing Software platform AdEngine.",
+  "homepage": "nanigans.com",
+  "authors": {
+    "Nanigans": "support@nanigans.com"
+  },
+  "source": {
+    "git": "https://github.com/gje4/SDK.git",
+    "tag": "0.2.2"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": false,
+  "frameworks": ["SystemConfiguration", "AdSupport", "MessageUI"]
+}
