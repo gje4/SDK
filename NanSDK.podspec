@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
  s.homepage     = "https://nanigans.com"
 s.license = {
 :type => 'Commercial',
-:text => 'Privacy Policy is located at http://www.nanigans.com/privacy-policy/';
-}
+:text => 'Privacy Policy is located at http://www.nanigans.com/privacy-policy/'}
  s.author = { 'Nanigans' => 'support@nanigans.com' }
   s.platform     = :ios
   s.vendored_frameworks = 'NanigansSDK/NanigansSDK.framework'
