@@ -22,8 +22,10 @@ Pod::Spec.new do |s|
   s.source = { :http => "http://pcentral.nanigans.com/downloads/NanigansSDK.ios.zip" }
   s.source_files  =  "*.{h,m}"
 
-  
-   s.frameworks = "AdSupport.framework", "SystemConfiguration.framework"
+  s.vendored_frameworks = 'NanigansSDK/NanigansSDK.framework'
+
+
+s.framework = 'AdSupport', 'MessageUI', 'SystemConfiguration'
 s.requires_arc = false
   
 end
