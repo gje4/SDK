@@ -1,7 +1,7 @@
 Pod::Spec.new do |s| 
   
 
-  s.name         = "NanSDK"
+  s.name         = "SDK"
   s.version      = "2.1"
   s.summary      = "Nanigans SDK is used to track user level data that can be used with the Marketing Software platform AdEngine"
  s.homepage     = "https://nanigans.com"
